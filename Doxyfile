@@ -1,0 +1,27 @@
+# Nombre del proyecto
+PROJECT_NAME = "Proyecto PaqueteEnvio"
+
+# Carpeta donde se generará la documentación
+OUTPUT_DIRECTORY = docs
+
+# Generar HTML
+GENERATE_HTML = YES
+GENERATE_LATEX = NO
+
+# Archivos de entrada
+INPUT = include src
+
+# Buscar en subcarpetas
+RECURSIVE = YES
+
+# Extraer todo (aunque falten comentarios)
+EXTRACT_ALL = YES
+
+# Optimización para C++
+OPTIMIZE_OUTPUT_FOR_C = NO
+
+# Incluir código fuente en la documentación
+SOURCE_BROWSER = YES
+
+# Mostrar relaciones entre clases
+HAVE_DOT = NO
